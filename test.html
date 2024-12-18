@@ -6,15 +6,11 @@
   var now = new Date();
   var datetime = now.toLocaleString();
   var number = 1;
-  var text;
 
   // Insert date and time into HTML
-  document.getElementById("datetime").innerHTML = datetime;
-  document.getElementByID("text").innerHTML = text;
-
   if (number = 1) {
-    text = "Number 1";
-  } else {
-    text = "Number 2";
-  }
+    datetime = "Number 1";
+  } 
+  
+  document.getElementById("datetime").innerHTML = datetime;
 </script>
